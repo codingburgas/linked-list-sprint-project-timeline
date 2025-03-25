@@ -5,7 +5,7 @@ int main()
 {
 
 
-	while (!WindowShouldClose)
+	while (!WindowShouldClose())
 	{
 		sceneManager();
 	}

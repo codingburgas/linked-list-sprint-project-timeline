@@ -1,16 +1,17 @@
 #include "windowManager.h"
+#include "../timeline/exitKey.h"
+
+EXITKEY exitKeyState;
 
 bool WindowShouldClose()
 {
-
-	bool closeKey = false;
-	if (closeKey == true)
+	switch (exitKeyState.exit)
 	{
+	case exitKeyState.PRESSED:
 		return true;
-	}
-	else
-	{
+		break;
+
+	default:
 		return false;
 	}
-
 }
