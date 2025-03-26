@@ -1,9 +1,15 @@
 #include "manager.h"
-#include<iostream>
+#include "../timeline_static_library/namespace_utility.h"
 
-
-void sceneManager()
+void scene_manager()
 {
-	std::cout << "Hello World";
+	// Switch based on the current scene
+	switch (utility::scene.current_scene)
+	{
+	case utility::scene.menu:
+
+		//if (foo == true){ utility::exit = true; }
+
+		break;
+	}
 }
-	

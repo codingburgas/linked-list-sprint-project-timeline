@@ -26,8 +26,5 @@
     <ClInclude Include="manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="exitKey.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

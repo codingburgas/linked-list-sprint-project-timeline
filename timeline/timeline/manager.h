@@ -1,3 +1,3 @@
 #pragma once
 
-void sceneManager();
+void scene_manager();

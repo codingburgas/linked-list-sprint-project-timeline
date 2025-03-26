@@ -1,15 +1,11 @@
 #include "manager.h"
-#include "../timeline_static_library/windowManager.h"
+#include "../timeline_static_library/namespace_utility.h"
 
 int main()
 {
-
-
-	while (!WindowShouldClose())
+	if (utility::exit == true)
 	{
-		sceneManager();
+		return 0;
 	}
-
-
-	return 0;
+	scene_manager();
 }
