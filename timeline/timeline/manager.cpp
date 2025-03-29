@@ -8,7 +8,7 @@ void scene_manager()
 	{
 	case utility::scene.menu:
 
-		//if (foo == true){ utility::exit = true; }
+		mainMenu();
 
 		break;
 	}
