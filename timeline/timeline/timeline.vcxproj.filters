@@ -21,7 +21,11 @@
     <ClCompile Include="manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="clear.cpp">
+=======
+    <ClCompile Include="menus.cpp">
+>>>>>>> 068caad9e9b319822d684e5cd601b7399db7ccb7
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

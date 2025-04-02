@@ -5,3 +5,4 @@ void clear();
 void deleteThisTest();
 void deleteThisTestToo();
 void deleteThisTestAlso();
+void main_menu();

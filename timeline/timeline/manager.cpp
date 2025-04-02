@@ -10,7 +10,7 @@ void scene_manager()
 	{
 	case utility::scene.menu:
 		clear();
-		deleteThisTest();
+		main_menu();
 		std::cin >> screen;
 		if (screen == 1)
 		{
@@ -20,7 +20,6 @@ void scene_manager()
 		{
 			utility::scene.current_scene = utility::scene.edit;
 		}
-
 		break;
 	case utility::scene.view:
 		clear();
