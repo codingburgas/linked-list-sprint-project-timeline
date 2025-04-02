@@ -21,6 +21,9 @@
     <ClCompile Include="manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="clear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="manager.h">

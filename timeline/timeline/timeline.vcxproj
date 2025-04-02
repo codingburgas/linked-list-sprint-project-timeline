@@ -131,6 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="clear.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="manager.cpp" />
   </ItemGroup>
