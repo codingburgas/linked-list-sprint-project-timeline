@@ -3,11 +3,12 @@
 
 namespace utility
 {
+	void clear();
 	extern bool exit;
 
 	struct struct_scene
 	{
-		enum enum_scene : std::uint8_t { menu , view , edit };
+		enum enum_scene : std::uint8_t { menu , view , edit, exit_enum };
 
 		enum_scene current_scene = menu;
 	};
