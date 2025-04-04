@@ -6,8 +6,12 @@ namespace utility
 	bool exit = false;
 	struct_scene scene;
 
-	void clear()
-	{
-		std::cout << "\033[2J\033[1;1H";
-	}
+    void clear()
+    {
+#if defined(_WIN32) || defined(_WIN64)
+        std::system("cls");
+#else
+        std::system("clear");
+#endif
+    }
 } // namespace exit_key

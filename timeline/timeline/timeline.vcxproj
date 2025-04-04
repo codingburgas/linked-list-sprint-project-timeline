@@ -135,6 +135,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="manager.cpp" />
     <ClCompile Include="main_menu.cpp" />
+    <ClCompile Include="timeline.cpp" />
     <ClCompile Include="view_menu.cpp" />
   </ItemGroup>
   <ItemGroup>
