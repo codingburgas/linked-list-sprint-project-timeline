@@ -31,8 +31,9 @@
 
 # <img src= "docs/readme_assets/word_logo.png" alt="document icon"> Documentation
 
-### <img src= "docs/readme_assets/word_logo.png" alt="word logo"> [Documentation](*put link here*)
-### <img src= "docs/readme_assets/powerpoint_logo.png" alt="powerpoint logo"> [Timeline Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/tpzhekov22_codingburgas_bg/EYMkBD60FBdOqxd-61s2naYBMjvgnTRbAiUfOf4RkznDXQ?e=5CQvEb)
+### <img src= "docs/readme_assets/word_logo.png" alt="word logo"> [Timeline's Documentation](*put link here*)
+### <img src= "docs/readme_assets/excel_logo.png" alt="excel logo"> [Timeline's QA Documentation](*put link here*)
+### <img src= "docs/readme_assets/powerpoint_logo.png" alt="powerpoint logo"> [Timeline's Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/tpzhekov22_codingburgas_bg/EYMkBD60FBdOqxd-61s2naYBMjvgnTRbAiUfOf4RkznDXQ?e=5CQvEb)
 
 # <img src= "docs/readme_assets/laptop_icon.png" alt="laptop icon"> Used Technologies
 
@@ -40,5 +41,5 @@
 #### <img src= "docs/readme_assets/visual_studio_logo.png" alt="Visual Studio 2022 logo"> <img src= "docs/readme_assets/github_logo_light.png#gh-light-mode-only" alt="github logo"><img src= "docs/readme_assets/github_logo_dark.png#gh-dark-mode-only" alt="github logo"> <img src= "docs/readme_assets/git_logo.png" alt="Git logo">
 ### Used technologies for our project development:
 #### <img src= "docs/readme_assets/C++_icon_light.png#gh-dark-mode-only" alt="C++ icon"><img src= "docs/readme_assets/C++_icon_dark.png#gh-light-mode-only" alt="C++ icon">
-### Used tools for our documentation & presentation & communication:
-#### <img src= "docs/readme_assets/word_logo_big.png" alt="word logo"> <img src= "docs/readme_assets/powerpoint_logo_big.png" alt="powerpoint logo"> <img src= "docs/readme_assets/microsoft_teams_logo.png" alt="microsoft teams logo">
+### Used tools for our documentation, presentation & communication:
+#### <img src= "docs/readme_assets/word_logo_big.png" alt="word logo"> <img src= "docs/readme_assets/excel_logo_big.png" alt="excel logo"> <img src= "docs/readme_assets/powerpoint_logo_big.png" alt="powerpoint logo"> <img src= "docs/readme_assets/microsoft_teams_logo.png" alt="microsoft teams logo">
