@@ -32,7 +32,7 @@
 # <img src= "starcoder/assets/word_logo.png" alt="document icon"> Documentation
 
 ### <img src= "starcoder/assets/word_logo.png" alt="word logo"> [Documentation](*put link here*)
-### <img src= "starcoder/assets/powerpoint_logo.png" alt="powerpoint logo"> [Timeline Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/tpzhekov22_codingburgas_bg/EUstGdxi6kJAmIvGu_au3WgBPLmMk1x_ThxqclEIwOM79Q?e=kNWbaP)
+### <img src= "starcoder/assets/powerpoint_logo.png" alt="powerpoint logo"> [Timeline Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/tpzhekov22_codingburgas_bg/EYMkBD60FBdOqxd-61s2naYBMjvgnTRbAiUfOf4RkznDXQ?e=5CQvEb)
 
 # <img src= "starcoder/assets/laptop_icon.png" alt="laptop icon"> Used Technologies
 
