@@ -31,7 +31,7 @@
 
 # <img src= "docs/readme_assets/word_logo.png" alt="document icon"> Documentation
 
-### <img src= "docs/readme_assets/word_logo.png" alt="word logo"> [Timeline's Documentation](*put link here*)
+### <img src= "docs/readme_assets/word_logo.png" alt="word logo"> [Timeline's Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/tpzhekov22_codingburgas_bg/Efz0oqTsVJpIsFBemxwq9MEBgYdf5gTnfNkyfz-KuhEQJA?e=zIQkEi)
 ### <img src= "docs/readme_assets/excel_logo.png" alt="excel logo"> [Timeline's QA Documentation](*put link here*)
 ### <img src= "docs/readme_assets/powerpoint_logo.png" alt="powerpoint logo"> [Timeline's Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/tpzhekov22_codingburgas_bg/EYMkBD60FBdOqxd-61s2naYBMjvgnTRbAiUfOf4RkznDXQ?e=5CQvEb)
 
