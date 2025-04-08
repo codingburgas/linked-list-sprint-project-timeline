@@ -6,8 +6,8 @@
 #include <iomanip> // Include this header for std::get_time
 #include <cstdio>  // Include this header for sscanf_s
 
-void LinkedList::append(const std::string& data) {
-    std::shared_ptr<Node> newNode = std::make_shared<Node>(data);
+void LinkedList::append(const std::string& data, const std::string& extendedInfo) {
+    std::shared_ptr<Node> newNode = std::make_shared<Node>(data, extendedInfo);
     if (!head) {
         head = newNode;
     }
@@ -23,7 +23,7 @@ void LinkedList::append(const std::string& data) {
 void LinkedList::print() const {
     std::shared_ptr<Node> temp = head;
     while (temp) {
-        std::cout << temp->data << std::endl;
+        std::cout << temp-> data << " " << temp->extendedInfo << std::endl; // Print extended information
         temp = temp->next;
     }
 }
@@ -102,4 +102,19 @@ void LinkedList::edit(const std::string& oldData, const std::string& newData) {
         }
         temp = temp->next;
     }
+}
+
+void LinkedList::select(const std::string& data) {
+    std::shared_ptr<Node> temp = head;
+    while (temp) {
+        if (temp->data == data) {
+            std::cout << "Event: " << temp->data << std::endl;
+            std::cout << "Extended Information: " << temp->extendedInfo << std::endl;
+            std::cout << "Enter new extended information: ";
+            std::getline(std::cin, temp->extendedInfo);
+            return;
+        }
+        temp = temp->next;
+    }
+    std::cout << "Event not found." << std::endl;
 }

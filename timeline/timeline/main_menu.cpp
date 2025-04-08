@@ -19,6 +19,5 @@ void main_menu()
 	}
 
 	std::cout << "1: View Timeline" << '\n';
-	std::cout << "2: Edit Timeline" << '\n';
-	std::cout << "3: Exit" << '\n';
+	std::cout << "2: Exit" << '\n';
 }

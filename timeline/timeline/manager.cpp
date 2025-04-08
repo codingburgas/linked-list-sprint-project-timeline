@@ -31,12 +31,7 @@ void scene_manager()
 			case 1:
 				utility::scene.current_scene = utility::scene.view;
 				break;
-
 			case 2:
-				utility::scene.current_scene = utility::scene.edit;
-				break;
-
-			case 3:
 				utility::scene.current_scene = utility::scene.exit_enum;
 				break;
 			}
@@ -47,13 +42,6 @@ void scene_manager()
 
 			view_menu();
 			break;
-
-		case utility::scene.edit:
-			utility::clear();
-
-			edit_menu();
-			break;
-
 		case utility::scene.exit_enum:
 			utility::clear();
 

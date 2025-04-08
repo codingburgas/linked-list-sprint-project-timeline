@@ -8,7 +8,7 @@ namespace utility
 
 	struct struct_scene
 	{
-		enum enum_scene : std::uint8_t { menu , view , edit, exit_enum };
+		enum enum_scene : std::uint8_t { menu , view , exit_enum };
 
 		enum_scene current_scene = menu;
 	};
