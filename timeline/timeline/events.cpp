@@ -23,7 +23,7 @@ void LinkedList::append(const std::string& data, const std::string& extendedInfo
 void LinkedList::print() const {
     std::shared_ptr<Node> temp = head;
     while (temp) {
-        std::cout << temp->data << " - " << temp->extendedInfo << std::endl; // Print extended information
+        std::cout << temp-> data << " " << temp->extendedInfo << std::endl; // Print extended information
         temp = temp->next;
     }
 }
