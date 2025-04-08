@@ -131,7 +131,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="edit_menu.cpp" />
     <ClCompile Include="events.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="manager.cpp" />

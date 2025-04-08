@@ -1,2 +1,2 @@
-2001-04-11 test not so early
-2030-04-11 test late
+2001-04-11 test not so early|it's a test!
+2030-04-11 test late|
