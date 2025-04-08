@@ -17,7 +17,9 @@ public:
     void print() const;
     void insert(const std::string& data);
     void sort();
-    std::shared_ptr<Node> getHead() const; // Declaration inside the class
+    void remove(const std::string& data);
+    void edit(const std::string& oldData, const std::string& newData); // Add this line
+    std::shared_ptr<Node> getHead() const;
 
 private:
     std::shared_ptr<Node> head;

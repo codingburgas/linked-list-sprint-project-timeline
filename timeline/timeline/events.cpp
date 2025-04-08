@@ -73,3 +73,33 @@ bool LinkedList::compareDates(const std::string& date1, const std::string& date2
     std::time_t time2 = parseDate(date2);
     return std::difftime(time1, time2) < 0;
 }
+
+void LinkedList::remove(const std::string& data) {
+    if (!head) return;
+
+    if (head->data == data) {
+        head = head->next;
+        return;
+    }
+
+    std::shared_ptr<Node> temp = head;
+    while (temp->next && temp->next->data != data) {
+        temp = temp->next;
+    }
+
+    if (temp->next) {
+        temp->next = temp->next->next;
+    }
+}
+
+void LinkedList::edit(const std::string& oldData, const std::string& newData) {
+    std::shared_ptr<Node> temp = head;
+    while (temp) {
+        if (temp->data == oldData) {
+            temp->data = newData;
+            sort(); // Re-sort the list if the date has changed
+            return;
+        }
+        temp = temp->next;
+    }
+}
