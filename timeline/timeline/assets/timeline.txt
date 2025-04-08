@@ -1,2 +1,27 @@
 2001-04-11 test not so early|it's a test!
 2030-04-11 test late|
+1878-03-03 Liberation
+1879-04-16 TarnovoConstitution
+1885-09-06 Unification
+1885-11-05 SerboBulgarianWar
+1908-10-05 Independence
+1912-10-05 BalkanWar1
+1913-06-16 BalkanWar2
+1915-10-14 WW1Entry
+1918-09-29 WW1Exit
+1923-06-09 Coup1923
+1923-09-23 Uprising1923
+1934-05-19 Coup1934
+1941-03-01 WW2AxisEntry
+1944-09-09 CommunistCoup
+1946-09-15 People'sRepublic
+1956-04-01 AprilPlenum
+1968-08-21 PragueSupport
+1989-11-10 ZhivkovResign
+1990-06-10 FreeElections
+1991-07-12 NewConstitution
+1997-01-10 Protests1997
+2004-03-29 NATOEntry
+2007-01-01 EUEntry
+2013-02-20 Protests2013
+2020-07-09 Protests2020
