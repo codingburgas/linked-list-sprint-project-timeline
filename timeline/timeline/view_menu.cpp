@@ -61,11 +61,13 @@ void view_menu()
     view_menu_screen = new int;
 
     std::cout << "                              1: Select Event" << '\n';
-    std::cout << "                              2: Go Back" << '\n';
-    std::cout << "                              3: Add Event" << '\n';
+    std::cout << "                              2: Add Event" << '\n';
+    std::cout << "                              3: Delete Event" << '\n';
+    std::cout << "                              4: Edit Event" << '\n'; // Add this line
+    std::cout << "                              5: Go Back" << '\n';
 
     while (true) {
-        if (std::cin >> *view_menu_screen && (*view_menu_screen == 1 || *view_menu_screen == 2 || *view_menu_screen == 3)) {
+        if (std::cin >> *view_menu_screen && (*view_menu_screen == 1 || *view_menu_screen == 2 || *view_menu_screen == 3 || *view_menu_screen == 4 || *view_menu_screen == 5)) { // Update this line
             break;
         }
         else {
@@ -75,6 +77,11 @@ void view_menu()
         }
     }
 
+    std::string newEvent; // Declare outside the switch statement
+    std::string eventToDelete; // Declare outside the switch statement
+    std::string oldEvent; // Declare outside the switch statement
+    std::string updatedEvent; // Declare outside the switch statement
+
     switch (*view_menu_screen)
     {
     case 1:
@@ -82,17 +89,38 @@ void view_menu()
         break;
 
     case 2:
+        std::cin.ignore(); // Clear the newline character from the input buffer
+        std::cout << "Enter the new event (format: YYYY-MM-DD Event Description): ";
+        std::getline(std::cin, newEvent);
+        timelineList.insert(newEvent);
+        saveTimeline("./assets/timeline.txt", timelineList);
         delete view_menu_screen;
         utility::scene.current_scene = utility::scene.menu;
         break;
 
     case 3:
         std::cin.ignore(); // Clear the newline character from the input buffer
-        std::string newEvent;
-        std::cout << "Enter the new event (format: YYYY-MM-DD Event Description): ";
-        std::getline(std::cin, newEvent);
-        timelineList.insert(newEvent);
+        std::cout << "Enter the event to delete (format: YYYY-MM-DD Event Description): ";
+        std::getline(std::cin, eventToDelete);
+        timelineList.remove(eventToDelete);
         saveTimeline("./assets/timeline.txt", timelineList);
+        delete view_menu_screen;
+        utility::scene.current_scene = utility::scene.menu;
+        break;
+
+    case 4: // Add this case
+        std::cin.ignore(); // Clear the newline character from the input buffer
+        std::cout << "Enter the event to edit (format: YYYY-MM-DD Event Description): ";
+        std::getline(std::cin, oldEvent);
+        std::cout << "Enter the updated event (format: YYYY-MM-DD Event Description): ";
+        std::getline(std::cin, updatedEvent);
+        timelineList.edit(oldEvent, updatedEvent);
+        saveTimeline("./assets/timeline.txt", timelineList);
+        delete view_menu_screen;
+        utility::scene.current_scene = utility::scene.menu;
+        break;
+
+    case 5:
         delete view_menu_screen;
         utility::scene.current_scene = utility::scene.menu;
         break;
