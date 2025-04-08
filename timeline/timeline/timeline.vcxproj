@@ -131,11 +131,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="events.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="manager.cpp" />
+    <ClCompile Include="main_menu.cpp" />
+    <ClCompile Include="view_menu.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="events.h" />
     <ClInclude Include="manager.h" />
+    <ClInclude Include="menus.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\timeline_static_library\timeline_static_library.vcxproj">
