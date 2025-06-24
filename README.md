@@ -13,7 +13,7 @@
 
 # <img src= "docs/readme_assets/light-bulb_icon.png" alt="light bulb">About the app
 
-### Timeline is a program for registering and managing historical events built in C++. It has a text-based user interface, using linked lists to store and manage historical events. It has an edit menu which allows the user to save, edit and manage historical events. You can view these historical events using the view menu in a user friendly and easy to understand way. Designed to be simple and efficient, Timeline offers an accessible, text-based solution for saving and managing historical events.
+### Restaurant Reservation System is a C++ program for managing restaurant reservations through a simple text-based user interface. It allows users to browse and search restaurants, view available tables, and make or cancel reservations. The system manages data such as restaurants, tables, time slots, and customer reservations, with support for online or offline payments. Designed for ease of use and flexibility, it provides a convenient way to handle table bookings and view reservation details.
 
 # <img src= "docs/readme_assets/download_dark.png#gh-light-mode-only" alt="download icon"><img src= "docs/readme_assets/download_light.png#gh-dark-mode-only" alt="download icon"> Setup & Installation
 
@@ -23,23 +23,4 @@
 
 #### - The latest version  of Visual Studio 2022;
 
-## <img src= "docs/readme_assets/door_icon.png" alt="door icon"> Building and Opening the project
 
-#### 1. Open linked-list-sprint-project-timeline directory -> Open linked-list-sprint-project-timeline\timeline
-#### 2. Open the timeline.sln file
-#### 3. Start and run the solution.
-
-# <img src= "docs/readme_assets/word_logo.png" alt="document icon"> Documentation
-
-### <img src= "docs/readme_assets/word_logo.png" alt="word logo"> [Timeline's Documentation - docx](https://codingburgas-my.sharepoint.com/:w:/g/personal/tpzhekov22_codingburgas_bg/Efz0oqTsVJpIsFBemxwq9MEBgYdf5gTnfNkyfz-KuhEQJA?e=zIQkEi) or [Timeline's Documentation - PDF](https://codingburgas-my.sharepoint.com/:b:/g/personal/tpzhekov22_codingburgas_bg/Eb192E6DqthJijDKgWJtM24B0dXWMrU1Fgi1beJ0pNEWMQ?e=FFO6gp)
-### <img src= "docs/readme_assets/excel_logo.png" alt="excel logo"> [Timeline's QA Documentation](https://codingburgas-my.sharepoint.com/:x:/g/personal/tpzhekov22_codingburgas_bg/ETyLI7oI13REnXzJ2JAcekEBHUgqhY20RZGRQdBU-eZcsw?e=hnkeSL)
-### <img src= "docs/readme_assets/powerpoint_logo.png" alt="powerpoint logo"> [Timeline's Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/tpzhekov22_codingburgas_bg/EYMkBD60FBdOqxd-61s2naYBMjvgnTRbAiUfOf4RkznDXQ?e=5CQvEb)
-
-# <img src= "docs/readme_assets/laptop_icon.png" alt="laptop icon"> Used Technologies
-
-### Used code editor & collaborative service:
-#### <img src= "docs/readme_assets/visual_studio_logo.png" alt="Visual Studio 2022 logo"> <img src= "docs/readme_assets/github_logo_light.png#gh-light-mode-only" alt="github logo"><img src= "docs/readme_assets/github_logo_dark.png#gh-dark-mode-only" alt="github logo"> <img src= "docs/readme_assets/git_logo.png" alt="Git logo">
-### Used technologies for our project development:
-#### <img src= "docs/readme_assets/C++_icon_light.png#gh-dark-mode-only" alt="C++ icon"><img src= "docs/readme_assets/C++_icon_dark.png#gh-light-mode-only" alt="C++ icon">
-### Used tools for our documentation, presentation & communication:
-#### <img src= "docs/readme_assets/word_logo_big.png" alt="word logo"> <img src= "docs/readme_assets/excel_logo_big.png" alt="excel logo"> <img src= "docs/readme_assets/powerpoint_logo_big.png" alt="powerpoint logo"> <img src= "docs/readme_assets/microsoft_teams_logo.png" alt="microsoft teams logo">
